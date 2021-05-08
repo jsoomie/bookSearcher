@@ -15,5 +15,5 @@ app.use(express.json());
 
 app.listen(PORT, (err) => {
   if (err) console.log(err.message);
-  console.log(`API @ port ${PORT}`);
+  console.log("\x1b[36m%s\x1b[0m", `API @ port ${PORT}`);
 });
