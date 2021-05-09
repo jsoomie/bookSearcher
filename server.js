@@ -14,9 +14,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // Routes
-const { findAll } = require("./controllers");
-
-app.use("/", findAll);
+app.use("/api", require("./routes"));
 
 app.listen(PORT, (err) => {
   if (err) console.log(err.message);
