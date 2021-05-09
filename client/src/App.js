@@ -1,12 +1,13 @@
 import "./App.css";
 import { Search, Saved, Error } from "./pages";
+import { Header, Footer } from "./components";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        {/* Header here */}
+        <Header />
         <Switch>
           <Route exact path="/">
             <Search />
@@ -18,7 +19,7 @@ function App() {
             <Error />
           </Route>
         </Switch>
-        {/* Footer here */}
+        <Footer />
       </Router>
     </div>
   );
