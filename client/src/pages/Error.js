@@ -19,7 +19,7 @@ export const Error = () => {
 const { image, link } = {
   image: {
     fontSize: "10rem",
-    margin: "5rem",
+    margin: "7rem",
   },
   link: {
     color: "#333",
