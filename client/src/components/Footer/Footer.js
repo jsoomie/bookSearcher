@@ -3,7 +3,7 @@ import { Fragment } from "react";
 export const Footer = () => {
   return (
     <Fragment>
-      <h1>Footer Here!</h1>
+      <h1>Copyright &copy; Book Searcher United</h1>
     </Fragment>
   );
 };

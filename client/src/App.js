@@ -1,4 +1,3 @@
-import "./App.css";
 import { Search, Saved, Error } from "./pages";
 import { Header, Footer } from "./components";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";

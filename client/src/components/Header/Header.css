@@ -1,0 +1,46 @@
+.header-wrapper {
+  width: 100vw;
+  background-color: dodgerblue;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.header-container {
+  display: flex;
+  margin: 0 auto;
+  max-width: 800px;
+  width: 100vw;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.header {
+  justify-content: center;
+}
+
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-list-container {
+  display: flex;
+  align-self: center;
+}
+
+.header-list-container li {
+  margin-left: 1rem;
+}
+
+.header-list-container a {
+  text-decoration: none;
+  color: white;
+  padding-top: 0.3rem;
+  font-weight: bold;
+}
+
+.header-list-container a:hover {
+  border-top: 2px solid white;
+}
