@@ -1,10 +1,10 @@
-import { Fragment } from "react";
+import "./Footer.css";
 
 export const Footer = () => {
   return (
-    <Fragment>
-      <h1>Copyright &copy; Book Searcher United</h1>
-    </Fragment>
+    <footer className="footer-wrapper">
+      <h3>Copyright &copy; Book Searcher United</h3>
+    </footer>
   );
 };
 
